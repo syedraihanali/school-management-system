@@ -11,7 +11,7 @@ export default function DashboardLayout({
     return (
         <div className="h-screen flex">
           {/* LEFT */}
-          <div className="w-[14%] xlg:w-[16%] lg:w-[16%] md:w-[8%]  p-4">
+          <div className="overflow-auto w-[14%] xlg:w-[16%] lg:w-[16%] md:w-[8%]  p-4">
             <Link href='/' className="flex items-center lg:justify-start gap-2">
               <Image src='/logo.png' alt='logo' width={32} height={32} />
               <span className="hidden lg:block">Aisan School</span>
