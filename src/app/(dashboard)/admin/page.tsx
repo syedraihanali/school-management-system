@@ -29,9 +29,9 @@ const AdminPage = () => {
           </div>
         </div>
         {/* bottom chart */}
-        {/* <div className="w-full h-[500px]">
+        <div className="w-full h-[500px]">
           <FinanceChart/>
-        </div> */}
+        </div>
       </div>
       {/* RIGTH */}
       <div className="w-full lg:w-1/3 flex flex-col gap-8">
